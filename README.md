@@ -43,6 +43,6 @@ This Sudoku solver is made fairly simply using recursive backtracking, so the pr
 
 # Issues
 - When given an input Sudoku string containing less than 20~ clues, the time taken exponentially increases, sometimes to around 2.5 minutes, this is due to inefficiencies in the algorithm used and i may try fix this in the future with a faster algorithm
-- It seem unclear if the program is broken or just taking a while to solve a difficult Sudoku puzzle so i could include a progress bar of some sort to indicate progress
+- It seems unclear if the program is broken or just taking a while to solve a difficult Sudoku puzzle so i could include a progress bar of some sort to indicate progress
 - Its important to remember that it is not possible to have a unique Sudoku with less than 17 clues and this function will not return all solutions, just the first one it finds, one issue here is with input validation , it's hard for the program to know an extremely difficult Sudoku from an impossible one
 - It would make the program more usable if i included a GUI so i may look into that in the future
