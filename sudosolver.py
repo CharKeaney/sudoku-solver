@@ -105,6 +105,7 @@ def sudo_brute_force():
     for (s, v) in values.items():
         if v == "0":
             current_square = s
+            break
 
     # Calculating the digits that cs_peer could be
     cs_peer_values = [values[s] for s in peers[current_square]]
